@@ -1,13 +1,7 @@
 
 .about {
   padding: 100px 15px;
-  background: #000046;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  color: #ffffff;
- 
- 
+  font-size: 30px;
 }
 
 .img {
@@ -28,14 +22,14 @@
 }
 
 .text h4 {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 600;
   margin: 0 0 10px;
   color: #000;
 }
 
 .text h6 {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 500;
   margin: 0 0 25px;
   color: #000;
@@ -67,7 +61,7 @@
 }
 
 .text p {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 24px;
   color: #fffcfc;
@@ -123,7 +117,7 @@
 
 .social a:hover {
   background-color: transparent;
-  color: #000;
+  color: #000000;
 }
 
 .social a .fa {
@@ -133,4 +127,27 @@
 
 .social a .fa:hover {
   color: #000;
+}
+
+html, body {
+  width: 100%;
+  height:100%;
+}
+
+.about {
+    background: linear-gradient(-45deg, #e06e4b, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
