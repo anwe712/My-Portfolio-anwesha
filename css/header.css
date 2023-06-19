@@ -3,12 +3,16 @@ header {
   padding: 0px 15px;
   left: 0px;
   right: 0px;
-  border-bottom: 1px solid #423940;
+  color: white;
   z-index: 11;
 }
 
 .fixed {
-  background-color: rgb(236, 241, 250);
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5d5d5d, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #484848, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
   position: fixed;
   border-color: #eee;
   animation: fixHeader 1s ease;
@@ -44,7 +48,7 @@ header .row {
 }
 
 .fixed .brand-name a {
-  color: #000;
+  color: white;
 }
 
 .hamburger .fa {
@@ -82,7 +86,7 @@ header .row {
 }
 
 .fixed .navbar ul li a {
-  color: #000;
+  color: white;
 }
 
 .navbar ul li a::before {
