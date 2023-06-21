@@ -1,7 +1,5 @@
 .services {
-  background: #c6b0ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #c6b0ff,#c6b0ff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #c6b0ff, #c6b0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: black;
   
   padding: 100px 15px 70px;
   
@@ -20,9 +18,9 @@
 }
 
 .box {
-  background: #4e54c8;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #e75b1c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e75b1c, #f87924);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e75b1c, #f87924); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
 
   flex: 0 0 calc(33.33% - 20px);
@@ -38,7 +36,7 @@
 .box::before {
   content: "";
   height: 2px;
-  background-color: #5f88e0;
+  background-color: #ffffff;
   position: absolute;
   bottom: 0px;
   width: 50px;

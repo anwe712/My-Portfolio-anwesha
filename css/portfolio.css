@@ -1,7 +1,5 @@
 .portfolio {
-    background: #70e1f5;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: black; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     padding: 100px 15px;
 }
@@ -22,7 +20,7 @@ background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, F
 }
 
 .filter-btn ul li {
-    color: #000;
+    color: #ffffff;
     font-weight: 500;
     font-size: 15px;
     display: inline-block;
@@ -33,8 +31,8 @@ background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, F
 }
 
 .filter-btn ul li.active {
-    color: #5f88e0;
-    border-bottom: 2px solid #5f88e0;
+    color: #ffffff;
+    border-bottom: 2px solid #e75b1c;
 }
 
 .filter-btn {
@@ -88,8 +86,8 @@ background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, F
 .overlay .fa {
     height: 50px;
     width: 50px;
-    background-color: #5f88e0;
-    color: #fff;
+    background-color: #000000;
+    color: #e75b1c;
     display: inline-block;
     text-align: center;
     line-height: 50px;
@@ -181,7 +179,7 @@ background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, F
 }
 
 .message {
-    background-color: #01143e;
+    background-color: #e75b1c;
     padding: 40px 15px;
 }
 
@@ -199,3 +197,9 @@ background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, F
     line-height: 35px;
 }
 
+
+
+.button a{
+border: 2px solid black;
+background-color: #000000;
+}

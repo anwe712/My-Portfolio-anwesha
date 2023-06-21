@@ -22,23 +22,23 @@
   max-width: 75%;
   color: rgb(236, 241, 250);
   padding-left: 35px;
-  border-left: 3px solid rgb(236, 241, 250);
+  border-left: 3px solid #e75b1c;
   margin-top: 50px;
 }
 .block h1 {
-  font-size: 70px;
+  font-size: 65px;
   font-weight: 600;
   margin: 0;
   padding: 0;
 }
 .block h3 {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 500;
   margin: 0;
   padding: 0;
 }
 .block h6 {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 500;
   margin: 0;
   padding: 0;
@@ -47,7 +47,7 @@
 
 .button-71 {
   
-  background-color: #0078d0;
+  background-color: #e75b1c;
   border: 0;
   border-radius: 56px;
   color: #fff;

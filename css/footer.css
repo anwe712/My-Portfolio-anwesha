@@ -1,6 +1,6 @@
 footer {
     padding: 70px 15px;
-    background-color: #002673;
+    background-color: #e75b1c;
 }
 
 .footer-logo {
@@ -9,7 +9,7 @@ footer {
     text-align: center;
     font-size: 45px;
     font-family: 'Lobster', cursive;
-    color: rgb(236, 241, 250);
+    color: rgb(0, 0, 0);
     font-weight: 900;
 }
 
@@ -21,7 +21,7 @@ footer {
 }
 
 .social-link a {
-    color: #999999;
+    color: #000000;
     display: inline-block;
     margin: 0px 12px;
     transition: all 0.5s ease;
@@ -32,7 +32,7 @@ footer {
 }
 
 .copyright {
-    background-color: #01143e;
+    background-color: #000000;
     border-top: 1px solid #423940;
     padding: 15px;
 }

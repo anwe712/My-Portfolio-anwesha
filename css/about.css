@@ -7,12 +7,14 @@
 .img {
   flex: 0 0 50%;
   max-width: 50%;
+  
 }
 
 .img img {
   width: 100%;
   border-radius: 4px;
-  display: block;
+  display:block;
+ 
 }
 
 .text {
@@ -25,18 +27,18 @@
   font-size: 30px;
   font-weight: 600;
   margin: 0 0 10px;
-  color: #000;
+  color: #ffffff;
 }
 
 .text h6 {
   font-size: 22px;
   font-weight: 500;
   margin: 0 0 25px;
-  color: #000;
+  color: #ffffff;
 }
 
 .text h6 span {
-  color: #ffdef5;
+  color: #fe6823;
   position: relative;
 }
 
@@ -56,27 +58,27 @@
   right: 0;
   position: absolute;
   height: 2px;
-  background-color: #d9ff32;
+  background-color: white;
   bottom: 0px;
 }
 
 .text p {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
   line-height: 24px;
   color: #fffcfc;
-  font-weight: bold;
+
 }
 
 .skills {
-  padding: 20px 0px;
+  padding: 30px 20px;
 }
 
 .skills h6 {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 400;
   margin: 0 0 25px;
-  color: #000;
+  color: #ffffff;
 }
 
 .skills-list {
@@ -106,7 +108,7 @@
   width: 30px;
   background-color: #000;
   display: inline-block;
-  border: 1px solid #000;
+  border: 1px solid #e75b1c;
   border-radius: 4px;
   line-height: 28px;
   text-align: center;
@@ -117,7 +119,7 @@
 
 .social a:hover {
   background-color: transparent;
-  color: #000000;
+  color: #e75b1c;
 }
 
 .social a .fa {
@@ -126,7 +128,7 @@
 }
 
 .social a .fa:hover {
-  color: #000;
+  color: #e75b1c
 }
 
 html, body {
@@ -135,9 +137,7 @@ html, body {
 }
 
 .about {
-    background: linear-gradient(-45deg, #e06e4b, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    background:black;
 }
 
 @keyframes gradient {
